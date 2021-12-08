@@ -1,0 +1,175 @@
+<!--Design by goa1.me-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Personal Portfolio Website</title>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+        <h2 id="about">About Me</h2> <br>
+      <p style="text-align: center;">I’m a junior full stack web developer. Coding and interracting with computer is my hobby. I'm a creative person who loves using the latest technologies to create unique websites and applications. I am very passionate about my work and I enjoy learning new skills and the challenges that come along with it.<br>
+      I want to use my skills and my problem surving ability to obtain a challenging position at any prestigious innovative tech company; that will expand my learning and build upon my developer skils.</p>
+    </div>    
+  </div>
+    
+
+<!--Top Menu & Menu button-->
+        <div class="sidebar">
+            <div class="profile">
+                <!--Profile Image-->
+                <a href="index.html"><img src="img/profile-pic.jpg"></a>
+                <!--Profile Title & Descruption-->
+                <h3>Gbenga Aladeloba</h3>
+                <p>Designer</p>
+            </div>
+             <!--Menu item-->
+             <ul>
+                <li>
+                     <a href="index.html" class="">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span class="icon"><i class="fas fa-address-card"></i></span>
+                        <span class="item">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#project">
+                        <span class="icon"><i class="fas fa-project-diagram"></i></span>
+                        <span class="item">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span class="icon"><i class="fas fa-address-book"></i></span>
+                        <span class="item">Contact</span>
+                    </a>
+                </li>               
+                
+             </ul>
+       </div>
+        
+    </div>
+    <div class="wrapper">
+        <div class="section">
+            <div class="container">
+                <div style="text-align:center">
+                    <h2 id="project">Projects</h2>
+                    <p>Click on the boxes below to open and click on the "X" to close:</p><br>
+                </div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:green;">    
+    <p>Dasmoto</p><br>
+    <img src="img/dasmoto.jpeg" width="200px" style="padding-top: 0px; margin: 0px;">
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:blue;">
+    <p>TeaCozy</p><br>
+    <img src="img/teacozy.jpeg">
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:darkred;">
+    <p>Ware House</p><br>
+    <img src="img/ware-house.jpeg">
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Project Name: Dasmoto</h2> 
+  <summary class="sum"></summary> 
+  <p>It's a sample page for responsive web design practice from Codecademy.</p>
+  <p><p>Link:</p><a href="https://mikky2.github.io/Dasmoto/" target="_blank">Click Here</a></p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Project Name: TeaCozy</h2>
+  <summary class="sum"></summary>
+  <p>Tea Cozy is a fictional tea shop website. It's a responsive design project on Codecademy. </p>
+  <p><p>Link: </p><a href="https://mikky2.github.io/TeaCozy/" target="_blank">Click Here</a></p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:darkred">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Project Name: Ware House</h2>
+  <summary class="sum"></summary>
+  <p>WareHouse, is a large furniture retail store. A practice project on Codecademy.</p>
+  <p><p>Link:</p><a href="https://mikky2.github.io/ware-house/" target="_blank">Click Here</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper">
+    <div class="section">
+        <div class="container">
+            <h2 style="text-align: center;">Skills</h2><br>
+            <p style="text-align:center">These are some of the skills I've acquired in the development of my professional career. I acquired these skills in a self-taught way.</p><br>
+            <div class="row">
+                <div class="column2" style="background:#fbffde">
+                    <img src="img/html.png"><br><br>
+                    <h4 style="color: black;">HTML Level:</h4>
+                    <div class="container3">
+                        <div class="skills html">90%</div>
+                    </div>
+                </div>
+                <div class="column2" style="background:#fbffde">
+                    <img src="img/js.png"><br>
+                    <h4 style="color: black;">JAVASCRIPT Level:</h4>
+                    <div class="container3">
+                        <div class="skills js">75%</div>
+                    </div>
+                </div>
+                <div class="column2" style="background:#fbffde">
+                    <img src="img/CSS3.png"><br><br>
+                    <h4 style="color: black;">CSS Level:</h4>
+                    <div class="container3">
+                        <div class="skills css">80%</div>
+                    </div>                   
+
+                </div>
+                <div class="column2" style="background:#fbffde">
+                    <img src="img/php.png"><br><br>
+                    <h4 style="color: black;">PHP Level:</h4>
+                    <div class="container3">
+                        <div class="skills php">45%</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="section">
+        <div class="footer" style="text-align: center;">
+            <h4 style="text-align:center; color: white;">Made by goa1.me</h4>
+        </div>        
+    </div>
+</div>
+  <script  src="index.js"></script>
+  <script>
+
+</script>
+</body>
+</html>
